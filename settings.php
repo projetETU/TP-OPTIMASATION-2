@@ -94,8 +94,15 @@ $npass1 = $_POST['npass1'];
 
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Noodles&Canned</title>
+<head>7<!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-M49LRCPR');</script>
+    <!-- End Google Tag Manager -->
+
+    <title>Noodles&Canned</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="width=device-width, initial-scale=1">
@@ -109,13 +116,6 @@ $npass1 = $_POST['npass1'];
 
   gtag('config', 'G-14TZ4THZ6G');
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-M49LRCPR');</script>
-<!-- End Google Tag Manager -->
 <body style="background-image: url(image/homebackgrndimg1.jpg);">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M49LRCPR"
