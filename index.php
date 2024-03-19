@@ -48,7 +48,7 @@ else {
 			</div>
 			<div style="float: left; margin: 5px 0px 0px 23px;">
 				<a href="index.php">
-					<img style=" height: 75px; width: 130px;" src="image/cart.webp">
+					<img alt="image" style=" height: 75px; width: 130px;" src="image/cart.webp">
 				</a>
 			</div>
 			<div class="">
@@ -77,59 +77,59 @@ else {
 			<div style="padding: 20px 30px; width: 85%; margin: 0 auto;">
 				<ul style="float: left;">
 					<li style="float: left; padding: 25px;">
-						<div class="home-prodlist-img"><a href="OurProducts/NoodlesCanned.php">
-							<img src="./image/product/noodles/n.webp" class="home-prodlist-imgi">
+						<div class="home-prodlist-img"><a href="OurProducts/Category.php?item=noodles">
+							<img alt="image" src="./image/product/noodles/n.webp" class="home-prodlist-imgi" >
 							</a>
 						</div>
 					</li>
 				</ul>
 				<ul style="float: left;">
 					<li style="float: left; padding: 25px;">
-						<div class="home-prodlist-img"><a href="OurProducts/Snacks.php">
-							<img src="./image/product/snack/sn.webp" class="home-prodlist-imgi">
+					<div class="home-prodlist-img"><a href="OurProducts/Category.php?item=snack">
+							<img alt="image" src="./image/product/snack/sn.webp" class="home-prodlist-imgi">
 							</a>
 						</div>
 					</li>
 				</ul>
 				<ul style="float: left;">
 					<li style="float: left; padding: 25px;">
-						<div class="home-prodlist-img"><a href="OurProducts/Sweets.php">
-							<img src="./image/product/sweet/s.webp" class="home-prodlist-imgi"></a>
+					<div class="home-prodlist-img"><a href="OurProducts/Category.php?item=sweet">
+							<img alt="image" src="./image/product/sweet/s.webp" class="home-prodlist-imgi"></a>
 						</div>
 					</li>
 				</ul>
 				<ul style="float: left;">
 					<li style="float: left; padding: 25px;">
-						<div class="home-prodlist-img"><a href="OurProducts/Hygene.php">
+					<div class="home-prodlist-img"><a href="OurProducts/Category.php?item=hygiene">
 							<img src="./image/product/hygiene/hy.webp" class="home-prodlist-imgi"></a>
 						</div>
 					</li>
 				</ul>
 				<ul style="float: left;">
 					<li style="float: left; padding: 25px;">
-						<div class="home-prodlist-img"><a href="OurProducts/Shampoo.php">
-							<img src="./image/product/shampoo/pall.webp" class="home-prodlist-imgi"></a>
+					<div class="home-prodlist-img"><a href="OurProducts/Category.php?item=shampoo">
+							<img alt="image" src="./image/product/shampoo/pall.webp" class="home-prodlist-imgi"></a>
 						</div>
 					</li>
 				</ul>
 				<ul style="float: left;">
 					<li style="float: left; padding: 25px;">
-						<div class="home-prodlist-img"><a href="OurProducts/Soap&Detergent.php">
-							<img src="./image/product/soap/sp.webp" class="home-prodlist-imgi"></a>
+					<div class="home-prodlist-img"><a href="OurProducts/Category.php?item=soap">
+							<img alt="image" src="./image/product/soap/sp.webp" class="home-prodlist-imgi"></a>
 						</div>
 					</li>
 				</ul>
 				<ul style="float: left;">
 					<li style="float: left; padding: 25px;">
-						<div class="home-prodlist-img"><a href="OurProducts/Drinks.php">
-							<img src="./image/product/drink/dr.webp" class="home-prodlist-imgi"></a>
+					<div class="home-prodlist-img"><a href="OurProducts/Category.php?item=drink">
+							<img alt="image" src="./image/product/drink/dr.webp" class="home-prodlist-imgi"></a>
 						</div>
 					</li>
 				</ul>
 				<ul style="float: left;">
 					<li style="float: left; padding: 25px;">
-						<div class="home-prodlist-img"><a href="OurProducts/Seasonings.php">
-							<img src="./image/product/seasoning/cond.webp" class="home-prodlist-imgi"></a>
+					<div class="home-prodlist-img"><a href="OurProducts/Category.php?item=seasoning">
+							<img alt="image" src="./image/product/seasoning/cond.webp" class="home-prodlist-imgi"></a>
 						</div>
 					</li>
 				</ul>

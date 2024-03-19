@@ -57,21 +57,21 @@ if (isset($_POST['addcart'])) {
 <body>
 	<?php include ( "../inc/mainheader.inc.php" ); ?>
 	<div class="categolis">
-		<table>
-			<tr>
-				<th>
-					<a href="NoodlesCanned.php" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Noodles&Canned</a>
-				</th>
-				<th><a href="Seasonings.php" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Seasonings</a></th>
-				<th><a href="Drinks.php" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Drinkss</a></th>
-				<th><a href="Snacks.php" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Snacks</a></th>
-				<th><a href="Sweets.php" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Sweets</a></th>
-				<th><a href="Soap&Detergent.php" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Soap&Detergent</a></th>
-				<th><a href="Shampoo.php" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Shampoo</a></th>
-				<th><a href="Hygene.php" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Hygiene</a></th>
-			</tr>
-		</table>
-	</div>
+        <table>
+            <tr>
+                <th>
+                    <a  href="Category.php?item=noodles"  style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius:">Noodles&Canned</a>
+                </th>
+
+                <th><a href="Category.php?item=snack" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Seasonings</a></th>
+                <th><a href="Category.php?item=drink" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #24bfae;border-radius: 12px;">Drinks</a></th>
+                <th><a href="Category.php?item=snack" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Snacks</a></th>
+                <th><a href="Category.php?item=sweet" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Sweets</a></th>
+                <th><a href="Category.php?item=soap" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Soap&Detergent</a></th>
+                <th><a href="Category.php?item=shampoo" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Shampoo</a></th>
+                <th><a href="Category.php?item=hygiene" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Hygiene</a></th>
+            </tr>
+        </table>	</div>
 	<div style="margin: 0 97px; padding: 10px">
 
 		<?php 
@@ -108,6 +108,7 @@ if (isset($_POST['addcart'])) {
 				</div>
 
 			';
+            $con->close();
 		?>
 
 	</div>
