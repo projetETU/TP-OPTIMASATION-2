@@ -120,6 +120,7 @@ $del = $_POST['Delivery'];
 	<title>Noodles&Canned</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="width=device-width, initial-scale=1">
 	
 </head>
 <!-- Google tag (gtag.js) -->

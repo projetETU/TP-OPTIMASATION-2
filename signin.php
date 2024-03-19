@@ -135,7 +135,7 @@ $_POST['last_name'] = trim($_POST['last_name']);
 	<head>
 		<title>Welcome to ebuybd online shop</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-        
+        <meta name="description" content="width=device-width, initial-scale=1">
 	</head>
 	<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-14TZ4THZ6G"></script>

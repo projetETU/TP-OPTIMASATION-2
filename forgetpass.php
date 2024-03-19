@@ -4,6 +4,7 @@
 	<title>Password Recover</title>
 	<link rel="icon" href="image/title.png" type="image/x-icon">
 	<meta charset="uft-8">
+    <meta name="description" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 	
 </head>
