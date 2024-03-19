@@ -65,6 +65,10 @@ if (isset($_POST['addcart'])) {
   gtag('config', 'G-14TZ4THZ6G');
 </script>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M49LRCPR"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 	<?php include ( "../inc/mainheader.inc.php" ); ?>
 	<div class="categolis">
         <table>
