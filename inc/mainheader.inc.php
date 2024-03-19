@@ -1,3 +1,4 @@
+<html lang="en">
 <div class="homepageheader">
 			<div class="signinButton loginButton">
 				<div class="uiloginbutton signinButton loginButton" style="margin-right: 40px;">
