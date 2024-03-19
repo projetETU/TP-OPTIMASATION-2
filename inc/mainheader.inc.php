@@ -7,7 +7,7 @@
 							echo '<a style="text-decoration: none; color: #fff;" href="../logout.php">LOG OUT</a>';
 						}
 						else {
-							echo '<a style="text-decoration: none; color: #fff;" href="../signin.php">SIGN IN</a>';
+							echo '<a id="insciption" style="text-decoration: none; color: #fff;" href="../signin.php">SIGN IN</a>';
 						}
 					 ?>
 					
@@ -18,12 +18,12 @@
 							echo '<a style="text-decoration: none; color: #fff;" href="../profile.php?uid='.$user.'">Hi '.$uname_db.'</a>';
 						}
 						else {
-							echo '<a style="text-decoration: none; color: #fff;" href="../login.php">LOG IN</a>';
+							echo '<a  id="log in" style="text-decoration: none; color: #fff;" href="../login.php">LOG IN</a>';
 						}
 					 ?>
 				</div>
 			</div>
-			<div style="float: left; margin: 5px 0px 0px 23px;">
+			<div style="float: left; margin: 5px 0px 0px 23px;">F
 				<a href="../index.php">
 					<img alt="image" style=" height: 75px; width: 130px;" src="../image/cart.webp">
 				</a>
@@ -31,7 +31,7 @@
 			<div class="">
 				<div id="srcheader">
 					<form id="newsearch" method="get" action="../search.php">
-					        <input type="text" class="srctextinput" name="keywords" size="21" maxlength="120"  placeholder="Search Here..."><input type="submit" value="search" class="srcbutton" >
+					        <input type="text" class="srctextinput" name="keywords" size="21" maxlength="120"  placeholder="Search Here..."><input id="search" type="submit" value="search" class="srcbutton" >
 					</form>
 				<div class="srcclear"></div>
 				</div>
