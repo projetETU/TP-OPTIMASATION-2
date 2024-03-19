@@ -19,7 +19,8 @@ else {
     <title>Drinks</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <meta name="description" content="Page de Categorie">
+
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-14TZ4THZ6G"></script>
@@ -75,7 +76,7 @@ else {
     <ul style="float: left;">
         <li style="float: left; padding: 0px 25px 25px 25px;">
             <div class="home-prodlist-img"><a href="view_product.php?pid='.$id.'">
-                <img src="../image/product/'.$_GET['item'].'/'.$picture.'" class="home-prodlist-imgi">
+                <img alt="image" src="../image/product/'.$_GET['item'].'/'.$picture.'" class="home-prodlist-imgi">
                 </a>
                 <div style="text-align: center; padding: 0 0 6px 0;"> <span style="font-size: 15px;">'.$pName.'</span><br> Price: '.$price.' Php</div>
             </div>

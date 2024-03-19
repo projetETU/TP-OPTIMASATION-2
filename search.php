@@ -73,7 +73,7 @@ $search_value = trim($_GET['keywords']);
 		</div>
 		<div style="float: left; margin: 5px 0px 0px 23px;">
 			<a href="index.php">
-				<img style=" height: 75px; width: 130px;" src="image/cart.png">
+				<img  alt="image" style=" height: 75px; width: 130px;" src="image/cart.png">
 			</a>
 		</div>
 		<div id="srcheader">
@@ -122,7 +122,7 @@ $search_value = trim($_GET['keywords']);
 							<ul style="float: left;">
 								<li style="float: left; padding: 0px 25px 25px 25px;">
 									<div class="home-prodlist-img"><a href="women/view_product.php?pid='.$id.'">
-										<img src="image/product/'.$item.'/'.$picture.'" class="home-prodlist-imgi">
+										<img alt="image" src="image/product/'.$item.'/'.$picture.'" class="home-prodlist-imgi">
 										</a>
 										<div style="text-align: center; padding: 0 0 6px 0;"> <span style="font-size: 15px;">'.$pName.'</span><br> Price: '.$price.' Php</div>
 									</div>

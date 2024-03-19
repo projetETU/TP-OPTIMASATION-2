@@ -88,7 +88,7 @@ if (isset($_POST['addcart'])) {
 			echo '
 				<div style="float: left;">
 				<div>
-					<img src="../image/product/'.$item.'/'.$picture.'" style="height: 500px; width: 500px; padding: 2px; border: 2px solid #c7587e;">
+					<img alt="image" src="../image/product/'.$item.'/'.$picture.'" style="height: 500px; width: 500px; padding: 2px; border: 2px solid #c7587e;">
 				</div>
 				</div>
 				<div style="float: right;width: 40%;color: #067165;background-color: #ddd;padding: 10px;">
