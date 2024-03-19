@@ -22,7 +22,7 @@ else {
 </head>
 <body>
 <?php include ( "../inc/mainheader.inc.php" ); ?>
-<div class="categoli">
+<div class="categolis">
     <table>
         <tr>
             <th>

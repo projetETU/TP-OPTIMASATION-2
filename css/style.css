@@ -96,7 +96,7 @@ body{
     font-size: 17px;
 }
 .uiloginbutton:hover {
-  background-color: #24bfae;
+  background-color: hsl(174, 23%, 17%);
 }
 
 #newsearch{
@@ -130,7 +130,7 @@ body{
 }
 .srcbutton:hover {
   text-decoration: none;
-  background: #24bfae;
+  background: hsl(174, 23%, 17%);
 }
 
 .pquantys {
@@ -159,7 +159,7 @@ body{
 }
 .buybutton:hover {
   text-decoration: none;
-  background: #24bfae;
+  background: hsl(174, 23%, 17%);
 }
 
 
@@ -328,7 +328,7 @@ body{
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1)
 }
 .uisignupbutton:hover {
-  background-color: #24bfae;
+  background-color: hsl(174, 23%, 17%);
 }
 
 .signup_error_msg {
