@@ -52,10 +52,10 @@ $search_value = "";
 				<div class="uiloginbutton signinButton loginButton" style="margin-right: 40px;">
 					<?php 
 						if ($user!="") {
-							echo '<a style="text-decoration: none; color: #fff;" href="logout.php">LOG OUT</a>';
+							echo '<a  aria-label="Read more about Seminole tax hike" style="text-decoration: none; color: #fff;" href="logout.php">LOG OUT</a>';
 						}
 						else {
-							echo '<a style="text-decoration: none; color: #fff;" href="signin.php">SIGN IN</a>';
+							echo '<a  aria-label="Read more about Seminole tax hike" style="text-decoration: none; color: #fff;" href="signin.php">SIGN IN</a>';
 						}
 					 ?>
 					
@@ -63,10 +63,10 @@ $search_value = "";
 				<div class="uiloginbutton signinButton loginButton" style="">
 					<?php 
 						if ($user!="") {
-							echo '<a style="text-decoration: none; color: #fff;" href="profile.php?uid='.$user.'">Hi '.$uname_db.'</a>';
+							echo '<a  aria-label="Read more about Seminole tax hike" style="text-decoration: none; color: #fff;" href="profile.php?uid='.$user.'">Hi '.$uname_db.'</a>';
 						}
 						else {
-							echo '<a style="text-decoration: none; color: #fff;" href="login.php">LOG IN</a>';
+							echo '<a  aria-label="Read more about Seminole tax hike" style="text-decoration: none; color: #fff;" href="login.php">LOG IN</a>';
 						}
 					 ?>
 				</div>
@@ -88,14 +88,14 @@ $search_value = "";
 		<div class="categolis">
 			<table>
 				<tr>
-					<th><?php echo '<a href="mycart.php?uid='.$user.'" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #fff;border-radius: 12px;">My Cart</a>'; ?></th>
+					<th><?php echo '<a aria-label="Read more about Seminole tax hike" href="mycart.php?uid='.$user.'" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #fff;border-radius: 12px;">My Cart</a>'; ?></th>
 					<th>
-						<?php echo '<a href="profile.php?uid='.$user.'" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">My Orders</a>'; ?>
+						<?php echo '<a aria-label="Read more about Seminole tax hike" href="profile.php?uid='.$user.'" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">My Orders</a>'; ?>
 					</th>
 					<th>
-						<?php echo '<a href="my_delivery.php?uid='.$user.'" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #fff;border-radius: 12px;">MyDeliveryHistory</a>'; ?>
+						<?php echo '<a  aria-label="Read more about Seminole tax hike" href="my_delivery.php?uid='.$user.'" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #fff;border-radius: 12px;">MyDeliveryHistory</a>'; ?>
 					</th>
-					<th><?php echo '<a href="settings.php?uid='.$user.'" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #fff;border-radius: 12px;">Settings</a>'; ?></th>
+					<th><?php echo '<a  aria-label="Read more about Seminole tax hike"href="settings.php?uid='.$user.'" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #fff;border-radius: 12px;">Settings</a>'; ?></th>
 					
 
 				</tr>
@@ -151,7 +151,7 @@ $search_value = "";
 									<th><?php echo $ddate; ?></th>
 									<th><?php echo $oplace; ?></th>
 									<th><?php echo $dstatus; ?></th>
-									<th><?php echo '<div class="home-prodlist-img"><a href="OurProducts/view_product.php?pid='.$pId.'">
+									<th><?php echo '<div class="home-prodlist-img"><a  aria-label="Read more about Seminole tax hike" href="OurProducts/view_product.php?pid='.$pId.'">
 													<img alt="image" src="image/product/'.$item.'/'.$picture.'" class="home-prodlist-imgi" style="height: 75px; width: 75px;">
 													</a>
 												</div>' ?></th>

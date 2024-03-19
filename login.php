@@ -115,15 +115,15 @@ if(isset($_POST['activate'])){
 		<div class="homepageheader">
 			<div class="signinButton loginButton">
 				<div class="uiloginbutton signinButton loginButton" style="margin-right: 40px;">
-					<a style="text-decoration: none; color: #fff;" href="signin.php">SIGN IN</a>
+					<a aria-label="Read more about Seminole tax hike" style="text-decoration: none; color: #fff;" href="signin.php">SIGN IN</a>
 				</div>
 				<div class="uiloginbutton signinButton loginButton" style="">
-					<a style="text-decoration: none; color: #fff;" href="login.php">LOG IN</a>
+					<a  aria-label="Read more about Seminole tax hike" style="text-decoration: none; color: #fff;" href="login.php">LOG IN</a>
 				</div>
 			</div>
 			<div style="float: left; margin: 5px 0px 0px 23px;">
 				<a href="index.php">
-					<img style=" height: 75px; width: 130px;" src="image/cart.png">
+					<img aria-label="Read more about Seminole tax hike" style=" height: 75px; width: 130px;" src="image/cart.png">
 				</a>
 			</div>
 			<div class="">

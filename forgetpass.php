@@ -22,14 +22,14 @@
 		<div class="homepageheader">
 			<div class="signinButton loginButton">
 				<div class="uiloginbutton signinButton loginButton" style="margin-right: 40px;">
-					<a style="text-decoration: none;" href="signin.php">SIGN IN</a>
+					<a  aria-label="Read more about Seminole tax hike" style="text-decoration: none;" href="signin.php">SIGN IN</a>
 				</div>
 				<div class="uiloginbutton signinButton loginButton" style="">
-					<a style="text-decoration: none;" href="login.php">LOG IN</a>
+					<a aria-label="Read more about Seminole tax hike" style="text-decoration: none;" href="login.php">LOG IN</a>
 				</div>
 			</div>
 			<div style="float: left; margin: 5px 0px 0px 23px;">
-				<a href="index.php">
+				<a aria-label="Read more about Seminole tax hike"  href="index.php">
 					<img alt="image" style=" height: 75px; width: 130px;" src="image/cart.png">
 				</a>
 			</div>

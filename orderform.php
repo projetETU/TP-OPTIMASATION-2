@@ -139,10 +139,10 @@ $del = $_POST['Delivery'];
 				<div class="uiloginbutton signinButton loginButton" style="margin-right: 40px;">
 					<?php 
 						if ($user!="") {
-							echo '<a style="text-decoration: none; color: #fff;" href="logout.php">LOG OUT</a>';
+							echo '<a  aria-label="Read more about Seminole tax hike" style="text-decoration: none; color: #fff;" href="logout.php">LOG OUT</a>';
 						}
 						else {
-							echo '<a style="text-decoration: none; color: #fff;" href="signin.php">SIGN IN</a>';
+							echo '<a  aria-label="Read more about Seminole tax hike" style="text-decoration: none; color: #fff;" href="signin.php">SIGN IN</a>';
 						}
 					 ?>
 					
@@ -150,16 +150,16 @@ $del = $_POST['Delivery'];
 				<div class="uiloginbutton signinButton loginButton" style="">
 					<?php 
 						if ($user!="") {
-							echo '<a style="text-decoration: none; color: #fff;" href="profile.php?uid='.$user.'">Hi '.$uname_db.'</a>';
+							echo '<a  aria-label="Read more about Seminole tax hike" style="text-decoration: none; color: #fff;" href="profile.php?uid='.$user.'">Hi '.$uname_db.'</a>';
 						}
 						else {
-							echo '<a style="text-decoration: none; color: #fff;" href="login.php">LOG IN</a>';
+							echo '<a aria-label="Read more about Seminole tax hike"style="text-decoration: none; color: #fff;" href="login.php">LOG IN</a>';
 						}
 					 ?>
 				</div>
 			</div>
 			<div style="float: left; margin: 5px 0px 0px 23px;">
-				<a href="index.php">
+				<a aria-label="Read more about Seminole tax hike" href="index.php">
 					<img alt="image" style=" height: 75px; width: 130px;" src="image/cart.png">
 				</a>
 			</div>
@@ -178,13 +178,13 @@ $del = $_POST['Delivery'];
 				<th>
 					<a href="OurProducts/NoodlesCanned.php" style="text-decoration: none;color:#040403 ;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Noodles&Canned</a>
 				</th>
-				<th><a href="OurProducts/Seasonings.php" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Seasonings</a></th>
-				<th><a href="OurProducts/Drinks.php" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Drinks</a></th>
-				<th><a href="OurProducts/Snacks.php" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Snacks</a></th>
-				<th><a href="OurProducts/Sweets.php" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Sweets</a></th>
-				<th><a href="OurProducts/Soap&Detergent.php" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Soap&Detergent</a></th>
-				<th><a href="OurProducts/Shampoo.php" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Shampoo</a></th>
-				<th><a href="OurProducts/Hygene.php" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Hygiene</a></th>
+				<th><a aria-label="Read more about Seminole tax hike"  href="OurProducts/Seasonings.php" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Seasonings</a></th>
+				<th><a  aria-label="Read more about Seminole tax hike" href="OurProducts/Drinks.php" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Drinks</a></th>
+				<th><a  aria-label="Read more about Seminole tax hike" href="OurProducts/Snacks.php" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Snacks</a></th>
+				<th><a  aria-label="Read more about Seminole tax hike" href="OurProducts/Sweets.php" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Sweets</a></th>
+				<th><a aria-label="Read more about Seminole tax hike"  href="OurProducts/Soap&Detergent.php" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Soap&Detergent</a></th>
+				<th><a aria-label="Read more about Seminole tax hike"  href="OurProducts/Shampoo.php" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Shampoo</a></th>
+				<th><a  aria-label="Read more about Seminole tax hike" href="OurProducts/Hygene.php" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">Hygiene</a></th>
 			</tr>
 		</table>
 	</div>

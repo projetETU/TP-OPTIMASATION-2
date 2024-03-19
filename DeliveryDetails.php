@@ -64,10 +64,10 @@ $search_value = "";
 				<div class="uiloginbutton signinButton loginButton" style="margin-right: 40px;">
 					<?php 
 						if ($user!="") {
-							echo '<a style="text-decoration: none; color: #fff;" href="logout.php">LOG OUT</a>';
+							echo '<a  aria-label="Read more about Seminole tax hike" style="text-decoration: none; color: #fff;" href="logout.php">LOG OUT</a>';
 						}
 						else {
-							echo '<a style="text-decoration: none; color: #fff;" href="signin.php">SIGN IN</a>';
+							echo '<a  aria-label="Read more about Seminole tax hike" style="text-decoration: none; color: #fff;" href="signin.php">SIGN IN</a>';
 						}
 					 ?>
 					
@@ -75,17 +75,17 @@ $search_value = "";
 				<div class="uiloginbutton signinButton loginButton" style="">
 					<?php 
 						if ($user!="") {
-							echo '<a style="text-decoration: none; color: #fff;" href="profile.php?uid='.$user.'">Hi '.$uname_db.'</a>';
+							echo '<a  aria-label="Read more about Seminole tax hike" style="text-decoration: none; color: #fff;" href="profile.php?uid='.$user.'">Hi '.$uname_db.'</a>';
 						}
 						else {
-							echo '<a style="text-decoration: none; color: #fff;" href="login.php">LOG IN</a>';
+							echo '<a aria-label="Read more about Seminole tax hike" style="text-decoration: none; color: #fff;" href="login.php">LOG IN</a>';
 						}
 					 ?>
 				</div>
 			</div>
 			<div style="float: left; margin: 5px 0px 0px 23px;">
-				<a href="index.php">
-					<img style=" height: 75px; width: 130px;" src="image/cart.png">
+				<a aria-label="Read more about Seminole tax hike" href="index.php">
+					<img  alt="inage" style=" height: 75px; width: 130px;" src="image/cart.png">
 				</a>
 			</div>
 			<div id="srcheader">
@@ -100,14 +100,14 @@ $search_value = "";
 		<div class="categolis">
 			<table>
 				<tr>
-					<th><?php echo '<a href="mycart.php?uid='.$user.'" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">My Cart</a>'; ?></th>
+					<th><?php echo '<a  aria-label="Read more about Seminole tax hike" href="mycart.php?uid='.$user.'" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">My Cart</a>'; ?></th>
 					<th>
-						<?php echo '<a href="profile.php?uid='.$user.'" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #fff;border-radius: 12px;">My Orders</a>'; ?>
+						<?php echo '<a aria-label="Read more about Seminole tax hike" href="profile.php?uid='.$user.'" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #fff;border-radius: 12px;">My Orders</a>'; ?>
 					</th>
 					<th>
-						<?php echo '<a href="#" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">MyDeliveryHistory</a>'; ?>
+						<?php echo '<a aria-label="Read more about Seminole tax hike" href="#" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #e6b7b8;border-radius: 12px;">MyDeliveryHistory</a>'; ?>
 					</th>
-					<th><?php echo '<a href="settings.php?uid='.$user.'" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #fff;border-radius: 12px;">Settings</a>'; ?></th>
+					<th><?php echo '<a aria-label="Read more about Seminole tax hike"  href="settings.php?uid='.$user.'" style="text-decoration: none;color: #040403;padding: 4px 12px;background-color: #fff;border-radius: 12px;">Settings</a>'; ?></th>
 					
 
 				</tr>
@@ -151,11 +151,11 @@ $search_value = "";
 									<th><?php echo $price; ?></th>
 									<th><?php echo $quantity; ?></th>
 									<th><?php echo $description; ?></th>
-									<th><?php echo '<div class="home-prodlist-img"><a href="'.$category.'/view_product.php?pid='.$pId.'">
+									<th><?php echo '<div class="home-prodlist-img"><a aria-label="Read more about Seminole tax hike" href="'.$category.'/view_product.php?pid='.$pId.'">
 													<img  alt="image" src="image/product/'.$item.'/'.$picture.'" class="home-prodlist-imgi" style="height: 75px; width: 75px;">
 													</a>
 												</div>' ?></th>
-									<th><?php echo '<div class="home-prodlist-img"><a href="delete_cart.php?cid='.$pId.'" style="text-decoration: none;">X</a>
+									<th><?php echo '<div class="home-prodlist-img"><a  aria-label="Read more about Seminole tax hike" href="delete_cart.php?cid='.$pId.'" style="text-decoration: none;">X</a>
 												</div>' ?></th>
 								</tr>
 								<?php } ?>
